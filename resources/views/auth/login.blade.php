@@ -32,18 +32,7 @@
             <button type="submit" class="w-full py-2 px-4 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg shadow-md transition">Sign In</button>
         </form>
 
-        <div class="flex items-center my-6 w-full">
-            <div class="flex-grow border-t border-gray-200"></div>
-            <span class="mx-4 text-gray-400">or</span>
-            <div class="flex-grow border-t border-gray-200"></div>
-        </div>
-
-        <a href="{{ route('google.login') }}" class="flex items-center justify-center bg-white border border-gray-300 rounded-lg shadow px-6 py-3 text-sm font-medium text-gray-800 hover:bg-gray-50 transition duration-150 w-full mb-2">
-            <img class="w-5 h-5 mr-3" src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo">
-            <span>Sign in with Google</span>
-        </a>
-
-        <div class="mt-4 w-full text-center">
+        <div class="mt-6 w-full text-center">
             <a href="/" class="text-green-600 hover:underline text-sm">← Back to Store</a>
         </div>
     </div>
